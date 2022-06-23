@@ -5,7 +5,10 @@ using namespace std;
 int sumar(int x, int y);
 
 int main(){
-    int suma = sumar(6,7);
+    int suma, a, b;
+    cin >> a;
+    cin >> b;
+    suma = sumar(a,b);
     cout << "La suma es " << suma;
     return 0;
 }
